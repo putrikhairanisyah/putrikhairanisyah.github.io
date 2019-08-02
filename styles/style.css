@@ -91,6 +91,7 @@ a:active {
 .menu-primer ul {
     background-color: blanchedalmond;
     border-radius: 4px;
+    text-align: center;
     box-shadow: 
     0 3px 5px -1px rgba(0, 0, 0, 2),
     0 6px 10px 0 rgba(0, 0, 0, 14),
@@ -100,7 +101,7 @@ a:active {
 .menu-primer li {
     border-right: 1px solid #d1d5d1;
     display: inline-block;
-    margin: 0-4px;  
+    margin: 0-4px;
 }
 
 .menu-primer a {
@@ -511,9 +512,8 @@ font-size: 15px;
     border-style: solid;
     height: 24px;
     float: right;
-    margin: 16px 160px;
+    margin: 16px 10px;
     padding-right: 0px;
-    background-image: url(data:image/svg+xml;charset=utf8;base64,IDxzdmcgd2lkdGg9JzI0JyBoZWlnaHQ9JzI0JyB2aWV3Qm94PScwIDAgMjQgMjQnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycgeG1sbnM6eGxpbms9J2h0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsnPjx0aXRsZT5DYXJ0IERlZmF1bHQ8L3RpdGxlPjxkZWZzPjxwYXRoIGlkPSdhJyBkPSdNMCAwaDI0djI0SDB6Jy8+PC9kZWZzPjxnIGZpbGw9J25vbmUnIGZpbGwtcnVsZT0nZXZlbm9kZCc+PG1hc2sgaWQ9J2InIGZpbGw9JyNmZmYnPjx1c2UgeGxpbms6aHJlZj0nI2EnLz48L21hc2s+PGcgbWFzaz0ndXJsKCNiKSc+PHBhdGggZD0nTTIwLjQ2NyA1YzEuMDExIDAgMS43NDQuOTM4IDEuNDc5IDEuODkxbC0xLjgyMyA2LjUyOEMxOS42OTcgMTQuOTQyIDE4LjI4IDE2IDE2LjY2MyAxNkg4LjkyNmMtLjkzOSAwLTEuNzU4LS42MjUtMS45ODYtMS41MTVMNC4yNTcgNEgzLjAyNEExLjAxMSAxLjAxMSAwIDAgMSAyIDNjMC0uNTUzLjQ1OC0xIDEuMDI0LTFoMi4wNjJjLjQ3IDAgLjg3OS4zMTIuOTkzLjc1OEw2LjY1NCA1aDEzLjgxM3pNOSAxNy41YTIgMiAwIDEgMSAwIDQuMDAxQTIgMiAwIDAgMSA5IDE3LjV6bTggMGEyIDIgMCAxIDEgMCA0LjAwMSAyIDIgMCAwIDEgMC00LjAwMXonIGZpbGw9JyM5RkE2QjAnLz48L2c+PC9nPjwvc3ZnPg==);
     background-repeat: no-repeat;
     background-size: cover;
     display: inline-block;
@@ -521,3 +521,140 @@ font-size: 15px;
     height: 20px;
     position: relative;
 }
+
+.wa {
+    border-width: 0 .5px 0 0;
+    border-color: #e0e0e0;
+    border-style: solid;
+    height: 24px;
+    float: right;
+    margin: 16px 10px;
+    padding-right: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    position: relative;
+}
+
+.vegetables {
+    float: left;
+    width: 20%;}
+
+.fruits{
+    float: left;
+    width: 20%;
+}
+
+.tubers{
+    float: left;
+    width: 20%;
+}
+
+.container-chart-gambar-barang {
+    float: left;
+    width: 50%;
+}
+
+.container-chart-detail-barang {
+    float: left;
+    width: 50%;
+}
+
+/* Start list */
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+@import url(https://fonts.googleapis.com/css?family=Oswald:300,400);
+.snip1423 {
+  font-family: 'Oswald', Arial, sans-serif;
+  position: relative;
+  margin: 30px;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  background: #ffffff;
+  text-align: center;
+  color: #000000;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  font-size: 16px;
+  padding: 15px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  float: left;
+}
+.snip1423 * {
+  -webkit-box-sizing: padding-box;
+  box-sizing: padding-box;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+.snip1423 img {
+  max-width: 100%;
+  vertical-align: top;
+  position: relative;
+}
+.snip1423 figcaption {
+  padding: 20px 15px;
+}
+.snip1423 h3,
+.snip1423 p {
+  margin: 0;
+}
+.snip1423 h3 {
+  font-size: 1.3em;
+  font-weight: 400;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+.snip1423 p {
+  font-size: 0.9em;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+.snip1423 .price {
+  font-weight: 500;
+  font-size: 1.4em;
+  line-height: 48px;
+  letter-spacing: 1px;
+}
+.snip1423 .price s {
+  margin-right: 5px;
+  opacity: 0.5;
+  font-size: 0.9em;
+}
+.snip1423 i {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, 50%);
+  transform: translate(-50%, 50%);
+  width: 56px;
+  line-height: 56px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #666666;
+  color: #ffffff;
+  font-size: 1.6em;
+  border: 4px solid #ffffff;
+}
+.snip1423 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.snip1423:hover,
+.snip1423.hover {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+}
+.snip1423:hover i,
+.snip1423.hover i {
+  background-color: #2980b9;
+}
+/* End list */
+
