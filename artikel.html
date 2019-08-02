@@ -11,47 +11,80 @@
         <!-- Start Description -->
         <meta type="description" content="halaman ini berisi tentang penyedia hasil pertanian yang lengkap">
         <!-- End Description -->
+
         <!-- Start CSS-->
         <link rel="stylesheet" href="styles/style.css">
         <!-- End CSS-->
 
+        <!-- Start JS -->
+        <script src="js/function.js"></script>
+        <!-- End JS -->
+
     </head>
     <body>
-         <!-- start Logo-->
-         <div class="container logo">
+        <!--Start Menu Primer-->
+        <div class="container menu-primer"> 
+                <ul>
+                    <li>
+                        <a href="index.html" title="Beranda">Beranda</a>
+                    </li>
+                    <li>
+                        <a href="tentang-kami.html" title="Tentang Kami">Tentang Kami</a>
+                    </li>
+                    <li>
+                        <a href="layanan.html" title="Layanan">Layanan</a>
+                    </li>
+                    <li>
+                        <a href="artikel.html" title="Artikel"class="active">Artikel</a>
+                    </li>
+                    <li>
+                        <a href="cara-pembayaran.html" title="Cara Pembayaran">Cara Pembayaran</a>
+                    </li>
+                    <li>
+                        <a href="pertanyaan.html" title="Pertanyaan">Pertanyaan</a>
+                    </li>
+                    <li>
+                        <a href="kontak-kami.html" title="Kontak Kami">Kontak Kami</a> 
+                    </li>
+                </ul>
+        </div>
+        <!--End Menu Primer-->
+        
+        <!-- Start Header -->
+        <div class="header">
+                <div class="header-part">
+                    <img src="images/logo.png" height="" alt="logo FreVe Market" width="100">
+                </div>
+               <div class="dropdown">
+                <button class="dropbtn">Kategori</button>
+                    <div class="dropdown-content">
+                        <a href="jenis-sayuran.html" title="vegetables">Vegetables</a>
+                        <a href="jenis-buah.html" title="fruits">Fruits</a>
+                        <a href="jenis-tuber.html" title="tubers">Tubers</a>
+                    </div>
+                </div>
+                <div class="header-part">
+                        <label for="cari"></label>
+                        <input type="text" placeholder="cari produk" size="50" name="cari" id="cari">
+                </div>
+                <div class="chart">
+                    <a href="jenis-buah.html"title="chart"><img src="images/chart.png" width="25" height="25""></a>
+                </div>
+                <div class="wa">
+                    <a href="https://wa.me/+6285360177953" title="wa"><img src="images/gbr-wa.jpg" width="25" height="25"></a>
+                </div>
+        </div>
+        <!-- End Header -->
+
+        <!-- start Logo-->
+        <!-- <div class="container logo">
             <a href="index.html" title="logo FreVe Market">
                 <img src="images/logo-freve-market.png" alt="logo FreVe Market" width="150">
             </a>
-        </div>
+        </div> -->
         <!--end Logo-->
 
-        <!--Start Menu Primer-->
-        <div class="container menu-primer"> 
-            <ul>
-                <li>
-                    <a href="index.html" title="Beranda">Beranda</a>
-                </li>
-                <li>
-                    <a href="tentang-kami.html" title="Tentang Kami">Tentang Kami</a>
-                </li>
-                <li>
-                    <a href="layanan.html" title="Layanan">Layanan</a>
-                </li>
-                <li>
-                    <a href="artikel.html" title="Artikel"class="active">Artikel</a>
-                </li>
-                <li>
-                    <a href="cara-pembayaran.html" title="Cara Pembayaran">Cara Pembayaran</a>
-                </li>
-                <li>
-                    <a href="pertanyaan.html" title="Pertanyaan">Pertanyaan</a>
-                </li>
-                <li>
-                    <a href="kontak-kami.html" title="Kontak Kami">Kontak Kami</a> 
-                </li>
-            </ul>
-        </div>
-        <!--End Menu Primer-->
+        
         
         <!-- Start Jumbotron-->
         <div class="container jumbotron">
@@ -65,60 +98,75 @@
             <div class="main-one">
             <div class="box-heading">
                 <h4><a href="index.html" title="Beranda">Beranda</a> 
-                    Artikel
+                    >Artikel
                 </h4>
             </div>
             <div class="box-isi">
-            <!-- Start Artikel 1 -->
-            <h2>
-                <a href="artikel.html" title="Cara mudah belanja kebutuhan hasil pertanian">Cara mudah belanja kebutuhan hasil pertaniane</a>
-            </h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec diam vitae purus malesuada luctus ac eu neque. Donec non risus sed mauris pellentesque tempus vitae quis neque. Nunc at quam ac mauris vestibulum condimentum nec laoreet nulla. Praesent sit amet efficitur leo, ac suscipit augue.</p> 
-            <p>Proin faucibus, enim non sollicitudin condimentum, ante ante pretium diam, vel pellentesque augue lacus vel est. Mauris pulvinar tempus eleifend. Proin pellentesque lacus eu justo pharetra, id facilisis mauris facilisis. Suspendisse quis dolor purus. Integer ornare porttitor blandit. Curabitur venenatis lacus sed iaculis maximus.</p>
-                
-            <!-- End Artikel 1 -->
-        
-            <hr>
-        
-            <!-- Start Artikel 2 -->
-            <h2>
-                <a href="artikel.html" title="Cara mudah belanja hasil pertanian yang segar dan murah">Cara mudah belanja hasil pertanian yang segar dan murah</a>
-            </h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec diam vitae purus malesuada luctus ac eu neque. Donec non risus sed mauris pellentesque tempus vitae quis neque. Nunc at quam ac mauris vestibulum condimentum nec laoreet nulla. Praesent sit amet efficitur leo, ac suscipit augue.</p> 
-            <p>Proin faucibus, enim non sollicitudin condimentum, ante ante pretium diam, vel pellentesque augue lacus vel est. Mauris pulvinar tempus eleifend. Proin pellentesque lacus eu justo pharetra, id facilisis mauris facilisis. Suspendisse quis dolor purus. Integer ornare porttitor blandit. Curabitur venenatis lacus sed iaculis maximus.</p>
-        
-            <!-- End Artikel 2 -->
-        
-            <hr>
+                <!-- Start Artikel 1 -->
+                <h2>
+                    <a href="artikel.html" title="Tip & Trik memilih sayur yang bagus dan segar">Tip & Trik memilih sayur yang bagus dan segar</a>
+                </h2>
+                    <ul>
+                        <li>Warnanya segar dan tidak layu walaupun disimpan di dalam maupun luar rak pendingin. </li>
+                        <li>warna sayur daun yang Anda pilih adalah hijau pastikan tidak ada warna kecoklatan, kekuningan, atau kehitaman pada bagian daunnya. </li>
+                        <li>Jika diperhatikan struktur tulang daun masih terlihat jelas Bagian batang daun mudah dipatahkan tapi tidak terasa kenyal, lembek, dan berlendir. </li>
+                        <li>Tidak ada bercak hitam pada daun dan masih terlihat segar tanpa goresan hitam Jika daun terlihat berlubang karena dimakan ulat atau bahkan ada ulat di sayuran tersebut itu tandanya adalah sayuran segar yang bebas pestisida.</li>
+                    </ul>
+                    <p>https://bacaterus.com/cara-memilih-sayuran-yang-baik/</p>
+                <!-- End Artikel 1 -->
             
-            <!-- Start Artikel 3 -->
-            <h2>
-                <a href="artikel.html" title="Cara belanja hasil pertanian dengan nyama">Cara belanja hasil pertanian dengan nyama</a>
-            </h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec diam vitae purus malesuada luctus ac eu neque. Donec non risus sed mauris pellentesque tempus vitae quis neque. Nunc at quam ac mauris vestibulum condimentum nec laoreet nulla. Praesent sit amet efficitur leo, ac suscipit augue.</p> 
-            <p>Proin faucibus, enim non sollicitudin condimentum, ante ante pretium diam, vel pellentesque augue lacus vel est. Mauris pulvinar tempus eleifend. Proin pellentesque lacus eu justo pharetra, id facilisis mauris facilisis. Suspendisse quis dolor purus. Integer ornare porttitor blandit. Curabitur venenatis lacus sed iaculis maximus.</p>
-            </div>
-            </div>
-            <!-- End Artikel 3 -->
-            <div class="sidebar-two">
-            <!-- Start Kategori -->
-            <div class="box-heading">
-                <h4 >Kategori</h4>
-            </div>
-            <div class="box-isi">
+                <hr>
+            
+                <!-- Start Artikel 2 -->
+                <h2>
+                    <a href="artikel.html" title="Tip & Trik memilih sayur yang bagus dan segar">Tip & Trik memilih sayur yang bagus dan segar</a>
+                </h2>
+                    <ul>
+                        <li>Bentuknya utuh, tidak penyok, tidak keriput, dan tidak bolong atau cuil </li>
+                        <li>Jika dipegang sayuran buah terasa padat dan tidak lembek </li>
+                        <li>Pada kulit buah tidak terdapat goresan, bercak hitam, dan tidak berlendir </li>
+                        <li>Warnanya segar sesuai dengan warna asli buahnya, seperti tomat warnanya merah segar tidak kekuningan atau kehijauan</li>
+                        <li>Jika dibau tidak akan berbau busuk dan justru baunya masih terasa segar</li>
+                    </ul>
+                <p>https://bacaterus.com/cara-memilih-sayuran-yang-baik/</p>
+                <!-- End Artikel 2 -->
+            
+                <hr>
+                
+                <!-- Start Artikel 3 -->
+                <h2>
+                    <a href="artikel.html" title="Tip & Trik memilih sayur yang bagus dan segar">Tip & Trik memilih sayur yang bagus dan segar</a>
+                </h2>
                 <ul>
-                    <li>
-                        <a href="#" title="Berita">Berita</a>
-                    </li>
-                    <li>
-                        <a href="#" title="Tip &amp; Trik">Tips &amp; Trik</a>
-                    </li>
-                    <li>
-                        <a href="#" title="Tutorial">Tutorial</a>
-                    </li>
+                    <li></li>
+                    <li>Sayur umbi tidak berlubang, tidak berlendir, tidak keriput, dan tidak terdapat goresan di kulitnya</li>
+                    <li>Bentuknya utuh tidak penyok atau cuil</li>
+                    <li>Warna cerah sesuai dengan warna sayuran dan di bagian kulit tidak ada bercak hitam</li>
                 </ul>
-            </div>
-            <!-- End Kategori -->
+                <p>https://bacaterus.com/cara-memilih-sayuran-yang-baik/</p>
+                </div>
+                </div>
+                <!-- End Artikel 3 -->
+
+            <div class="sidebar-two">
+                <!-- Start Kategori -->
+                    <div class="box-heading">
+                        <h4 >Kategori</h4>
+                    </div>
+                    <div class="box-isi">
+                        <ul>
+                            <li>
+                                <a href="#" title="Berita">Berita</a>
+                            </li>
+                            <li>
+                                <a href="#" title="Tip &amp; Trik">Tips &amp; Trik</a>
+                            </li>
+                            <li>
+                                <a href="#" title="Tutorial">Tutorial</a>
+                            </li>
+                        </ul>
+                    </div>
+                <!-- End Kategori -->
             </div>
         </div>
         <!-- End Artikel -->
